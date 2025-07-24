@@ -1,0 +1,94 @@
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+body {
+    margin: 30px;
+}
+
+p {
+    font-size: 14px;
+}
+.Instructions h2 , 
+.Nutrition h2 {
+    border-top: 2px solid lightgray;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color:brown;
+    font-family:sans-serif;
+}
+
+.prep-time {
+    background-color: #FFF0F5;
+    border-radius: 10px;
+    margin: 30px 20px;
+    padding: 10px;
+}
+
+.prep-time h2{
+    color:purple;
+    padding-left: 20px;
+}
+
+.Ingredients ul ,
+.Instructions ol {
+    padding-left: 20px;
+}
+
+ul li ,
+ol li {
+    margin-bottom: 0.5em;
+    padding-left:30px;
+}
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+th ,td  {
+    padding-bottom: 15px;
+    padding-top: 10px;
+    
+}
+
+tr {
+    border-bottom: 2px solid lightgray;
+}
+
+table tbody tr:last-child {
+    border-bottom: none;
+}
+
+
+@media (max-width: 600px) {
+    body{
+        margin:15px;
+    }
+
+    .prep-time {
+        margin: 20px 10px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size:13px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    ul li, 
+    ol li {
+        padding-left:20px;
+    }
+        
+
+}
